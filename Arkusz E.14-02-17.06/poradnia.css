@@ -1,0 +1,46 @@
+/*Styl CSS witryny internetowej
+Plik poradnia.css zawiera formatowanie dla:
+Banera: kolor RGB tła (48, 27, 94), biały kolor czcionki, rozmiar czcionki 120%, wyrównanie tekstu do środka, wysokość 80 px
+Panelu lewego: kolor RGB tła (127, 118, 158), szerokość 25%, wysokość 500 px, biały kolor czcionki
+Panelu prawego: kolor RGB tła (220, 220, 220), szerokość 75%, wysokość 500 px, rozmiar czcionki 110%
+Stopki: kolor RGB tła (127, 118, 158), biały kolor czcionki, wyrównanie tekstu do środka, wysokość 80 px*/
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+.baner
+{
+	float: left;
+	width: 100%;
+	background-color: rgb(48,27,94);
+	color: white;
+	font-size: 120%;
+	text-align: center;
+	height: 80px;
+}
+.lewy
+{
+	background-color: rgb(127,118,158);
+	width: 25%;
+	height: 500px;
+	color: white;
+	float: left;
+}
+.prawy
+{
+	background-color: rgb(220,220,220);
+	width: 75%;
+	height: 500px;
+	font-size: 110%;
+	float: left;
+}
+.stopka
+{
+	background-color: rgb(127,118,158);
+	color: white;
+	text-align: center;
+	height: 80px;
+	float: left;
+	width: 100%;
+}

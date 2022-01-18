@@ -1,0 +1,134 @@
+html {
+   background: url(tlo.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   width: auto;
+   font-family: 'Cairo', sans-serif;
+   margin-bottom: 50px;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+   display: block;
+   background-color: #3577A3;
+   height: 40px;
+   margin-top: 10px;
+   margin-right: 10px;
+   width: 150px;
+   border-radius: 10px;
+   font-size: 17px;
+   cursor: pointer;
+   color: white;
+   border: 0px;
+   outline: 0;
+   box-shadow: black 2px 2px 5px 3px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover 
+input[type=button]:hover {
+   background-color: #5085A3;
+}
+
+input[type=submit]:active,
+input[type=reset]:active,
+input[type=reset]:active {
+   background-color: #5085A3;
+   height: 40px;
+   width: 150px;
+   outline: none;
+   box-shadow: none;
+   box-shadow: black 0 0 10px 0px;
+}
+
+select {
+   background-color: #ccc;
+   height: 40px;
+   width: 200px;
+   border: 2px solid gray;
+   border-radius: 10px;
+   cursor: pointer;
+   box-shadow: gray 0 0 10px 1px;
+   outline: none;
+   margin-bottom: 10px;
+   margin-top: 2px;
+}
+
+select:hover {
+   background-color: #ddd;
+}
+
+select:focus {
+   background-color: #ddd;
+   outline: 0;
+   box-shadow: black 0 0 10px 0px;
+}
+
+select:active {
+   box-shadow: black 0 0 10px 0px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number] {
+   margin-bottom: 10px;
+   width: 185px;
+   height: 25px;
+   border-radius: 10px;
+   outline: none;
+   padding: 5px;
+   box-shadow: gray 0 0 10px 1px;
+   background-color: #ccc;
+   cursor: text;
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=number]:hover {
+   background-color: #ddd;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus {
+   background-color: #ddd;
+   outline: 0;
+   box-shadow: black 0 0 10px 0px;
+}
+
+input[type=text]:active,
+input[type=password]:active,
+input[type=number]:active {
+   box-shadow: black 0 0 10px 0px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+
+a {
+   text-decoration: none;
+}
+
+.przycisk
+{
+   width: 150px;
+   height: 40px;
+   margin: auto;
+}

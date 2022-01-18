@@ -1,0 +1,30 @@
+html,body,h1
+{
+	padding: 0;
+	margin: 0;
+}
+.baner, .stopka
+{
+	background-color: #773D24;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.glowny
+{
+	background-color: #B97E65;
+	height: 600px;
+}
+table
+{
+	width: 80%;
+	border-spacing: 30px;
+}
+td
+{
+	background-color: #DEAD98;
+}
+p
+{
+	text-align: center;
+}

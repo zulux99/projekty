@@ -1,0 +1,134 @@
+
+html {
+   background: url(tlo.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   width: auto;
+   font-family: 'Cairo', sans-serif;
+   margin-bottom: 50px;
+ }
+
+.przycisk {
+    display: block;
+    background-color: #3577A3;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    outline: 0;
+    box-shadow: black 2px 2px 5px 3px;
+}
+
+.przycisk:hover {
+    background-color: #5085A3;
+}
+
+.przycisk:active {
+    background-color: #5085A3;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    box-shadow: none;
+    box-shadow: black 0 0 10px 0px;
+}
+
+.a {
+    height: 40px;
+    width: 150px;
+    margin: auto;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type=text]
+{
+  width: 100%;
+}
+.input {
+    margin: 5px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    box-shadow: gray 0 0 10px 1px;
+    background-color: #ccc;
+    cursor: text;
+}
+
+.input:hover {
+    background-color: #ddd;
+}
+
+.input:focus {
+    background-color: #ddd;
+    outline: 0;
+    box-shadow: black 0 0 10px 0px;
+}
+
+.input:active {
+    box-shadow: black 0 0 10px 0px;
+}
+select {
+   background-color: white;
+   width: 100%;
+   height: 30px;
+   cursor: pointer;
+   outline: none;
+}
+
+select:hover {
+   background-color: #ddd;
+}
+
+select:focus {
+   background-color: #ddd;
+   outline: 0;
+   box-shadow: black 0 0 10px 0px;
+}
+
+select:active {
+   box-shadow: black 0 0 10px 0px;
+}
+table {
+   border-collapse: collapse;
+   width: 1000px;
+    margin-top: 15px;
+}
+
+td {
+   border: 1px solid black;
+   vertical-align: middle;
+}
+.tabela
+{
+   border: 0;
+   height: 30px;
+   text-align: center;
+}
+.srodek
+{
+  width: 1023px;
+  margin: auto;
+}

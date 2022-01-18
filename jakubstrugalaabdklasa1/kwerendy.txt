@@ -1,0 +1,15 @@
+zapytanie 1:
+SELECT nazwa, cena FROM uslugi
+zapytanie 2:
+SELECT imie, rodzaj, nastepna_wizyta, telefon FROM zwierzeta WHERE nastepna_wizyta != '0'
+zapytanie 3:
+SELECT z.rodzaj, u.nazwa FROM zwierzeta z INNER JOIN uslugi u WHERE z.usluga_id = u.id
+zapytanie 4:
+SELECT MIN(cena) FROM uslugi
+SELECT d.NazwaDostawcy,p.NazwaProduktu 
+FROM Dostawcy d INNER JOIN Dostawcy_produktow dp INNER JOIN Produkty p 
+WHERE d.IDDostawcy = dp.IDDostawcy AND dp.NumerProduktu = p.NumerProduktu and  CenaHurtowa < 100
+
+SELECT d.NazwaDostawcy,p.NazwaProduktu 
+FROM Dostawcy d INNER JOIN Dostawcy_produktow dp on  d.IDDostawcy = dp.IDDostawcy
+WHERE CenaHurtowa < 100

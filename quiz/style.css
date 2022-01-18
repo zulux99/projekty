@@ -1,0 +1,126 @@
+body
+{
+	background: url(tlo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	font-family: Cairo;
+}
+
+input[type=submit]:hover 
+{
+   	background-color: #5085A3;
+}
+input[type=text]:hover 
+{
+   	background-color: #5085A3;
+}
+img
+{
+	height: 30px;
+}
+
+.glowna1
+{
+	margin-top: 300px;
+}
+.pkt
+{
+	font-size: 40px;
+	margin-top: 300px;
+}
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+    background: linear-gradient(lightblue, white);
+}
+td
+{
+    border: 1px solid black;
+    width: 250px;
+    height: 30px;
+}
+
+
+li
+{
+	list-style-type: none;
+	margin-left: -35px;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+.odpowiedz
+{
+    height: 40px;
+	font-size: 25px;
+	width: 300px;
+	margin: auto;
+	margin-top: -45px;
+}
+input[type=submit],
+input[type=reset],
+input[type=button] {
+   background-color: #3577A3;
+   height: 40px;
+   margin-top: 10px;
+   margin-right: 10px;
+   width: 150px;
+   border-radius: 10px;
+   font-size: 17px;
+   cursor: pointer;
+   color: white;
+   border: 0px;
+   outline: 0;
+   box-shadow: black 2px 2px 5px 3px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover {
+   background-color: #5085A3;
+}
+
+input[type=submit]:active,
+input[type=reset]:active,
+input[type=reset]:active {
+   background-color: #5085A3;
+   height: 40px;
+   width: 150px;
+   outline: none;
+   box-shadow: none;
+   box-shadow: black 0 0 10px 0px;
+}
+
+input[type=text],
+input[type=number] {
+   margin-bottom: 10px;
+   width: 185px;
+   height: 25px;
+   border-radius: 10px;
+   outline: none;
+   padding: 5px;
+   box-shadow: gray 0 0 10px 1px;
+   background-color: #ccc;
+   cursor: text;
+}
+
+input[type=text]:hover,
+input[type=number]:hover {
+   background-color: #ddd;
+}
+
+input[type=text]:focus,
+input[type=number]:focus {
+   background-color: #ddd;
+   outline: 0;
+   box-shadow: black 0 0 10px 0px;
+}
+
+input[type=text]:active,
+input[type=number]:active {
+   box-shadow: black 0 0 10px 0px;
+}

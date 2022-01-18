@@ -1,0 +1,10 @@
+﻿1 || Polski || Warszawa || polska.png || 
+2 || Albanii || Tirana || albania.png || 
+3 || Niemiec || Berlin || niemcy.png || 
+4 || Chorwacji || Zagrzeb || chorwacja.png || 
+5 || Belgii || Bruksela || belgia.png || 
+6 || Hiszpanii || Madryt || hiszpania.png || 
+7 || Francji || Paryż || francja.png || 
+8 || Irlandii || Dublin || irlandia.png || 
+9 || Rosji || Moskwa || rosja.png || 
+10 || Ukrainy || Kijów || ukraina.png || 

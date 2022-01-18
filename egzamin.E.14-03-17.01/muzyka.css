@@ -1,0 +1,35 @@
+body,html
+{
+	margin: 0;
+	padding: 0;
+}
+.baner
+{
+	background-color: #812F8D;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	padding: 10px;
+}
+.lewy
+{
+	background-color: #BB74C4;
+	color: white;
+	width: 25%;
+	float: left;
+	position: fixed;
+	height: 100%;
+}
+.prawy
+{
+	width: 75%;
+	float: right;
+}
+h2
+{
+	text-align: center;
+}
+form
+{
+	margin: 20px;
+}

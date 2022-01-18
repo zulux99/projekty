@@ -1,0 +1,144 @@
+html {
+    background: orange no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.glowny {
+    width: 1200px;
+    margin: auto;
+}
+
+.srodek {
+    float: left;
+    width: 1200px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.baner {
+    float: left;
+    width: 100%;
+    background-color: lightgray;
+    height: 80px;
+    margin-top: 15px;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    padding: 5px;
+}
+
+.menu {
+    float: left;
+    margin: 5px;
+    margin-left: 70px;
+}
+
+.menu1 {
+    float: left;
+    width: 150px;
+    margin-left: 40px;
+    height: 50px;
+    padding-top: 25px;
+    border: 1px solid black;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.koszyk {
+    float: right;
+    margin: 15px;
+}
+
+.zaloguj {
+    float: right;
+    margin: 15px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 2em;
+    line-height: 30px;
+    text-align: center;
+}
+
+ol a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 0 5px;
+}
+
+ol > li {
+    float: left;
+    width: 150px;
+    margin-left: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+
+ol > li:first-child {
+    margin-left: 0;
+}
+
+ol > li:hover {
+    background-color: #EEE;
+}
+
+ol > li:hover > a {
+    color: #09C;
+}
+
+ol > li:hover > ul {
+    display: block;
+}
+
+
+ol > li > ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol > li > ul > li {
+    position: relative;
+    background-color: #EEE;
+}
+
+ol > li > ul > li > a {
+    border-top: 1px solid #FFF;
+}
+
+ol > li > ul > li:hover {
+    background-color: #DDD;
+}
+
+ol > li > ul > li:hover > a {
+    color: #09C;
+}
+
+.kafelek {
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 50px;
+}

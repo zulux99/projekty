@@ -1,0 +1,10 @@
+table
+{
+    border-collapse: collapse;
+    color: white;
+}
+td
+{
+    border: 1px solid white;
+    vertical-align: middle;
+}

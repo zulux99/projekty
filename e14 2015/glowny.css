@@ -1,0 +1,38 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    color: red;
+    background-color: gray;
+}
+a
+{
+    color: red;
+}
+.baner
+{
+    height: 130px;
+    margin: 15px;
+}
+.head
+{
+    width: 100%;
+    background: black;
+}
+.menu
+{
+    float: left;
+    margin: 50px;
+}
+#zdjecie
+{
+    height: 500px;
+}
+.glowny
+{
+    margin: 30px;
+}
+.stopka
+{
+    float: right;
+}

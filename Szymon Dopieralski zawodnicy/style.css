@@ -1,0 +1,250 @@
+html {
+    background: url(tlo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+body {
+    margin: 0;
+    width: auto;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+select {
+    background-color: #ccc;
+    height: 40px;
+    width: 230px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: gray 0 0 10px 1px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+select:hover {
+    background-color: #ddd;
+}
+
+select:focus {
+    background-color: #ddd;
+    outline: 0;
+    box-shadow: black 0 0 10px 0px;
+}
+
+select:active {
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=text] {
+    margin-bottom: 10px;
+    width: 215px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    box-shadow: gray 0 0 10px 1px;
+    background-color: #ccc;
+    cursor: text;
+}
+
+input[type=text]:hover {
+    background-color: #ddd;
+}
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: 0;
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=text]:active {
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=number] {
+    margin-bottom: 10px;
+    width: 215px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    box-shadow: gray 0 0 10px 1px;
+    background-color: #ccc;
+    cursor: text;
+}
+
+input[type=number]:hover {
+    background-color: #ddd;
+}
+
+input[type=number]:focus {
+    background-color: #ddd;
+    outline: 0;
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=number]:active {
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+    width: 220px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ccc;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: gray 0 0 10px 1px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover {
+    background-color: #ddd;
+}
+
+input[type=submit]:focus,
+input[type=reset]:focus,
+input[type=button]:focus {
+    background-color: #ddd;
+    outline: 0;
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=submit]:active,
+input[type=reset]:active,
+input[type=reset]:active {
+    box-shadow: black 0 0 10px 0px;
+}
+
+input[type=radio] {
+    margin: 5px;
+}
+
+input {
+    margin-top: 2px;
+}
+
+#form {
+    padding-top: 15px;
+    padding: 30px;
+    background-color: white;
+    height: 530px;
+    margin: auto;
+    width: 530px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: white 0 0 10px 2px;
+}
+
+#lewy {
+    float: left;
+    margin-left: 10px;
+}
+
+#prawy {
+    float: right;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+.komunikat {
+    text-align: center;
+    font-size: 25px;
+    width: 530px;
+    margin: auto;
+}
+
+#wyswietlanie {
+    background-color: white;
+    height: auto;
+    text-align: left;
+    margin: auto;
+    width: 900px;
+    box-shadow: white 0 0 10px 2px;
+}
+
+#wynik1 {
+    padding-top: 15px;
+    padding: 30px;
+    background-color: white;
+    height: 370px;
+    margin: auto;
+    width: 530px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: white 0 0 10px 2px;
+}
+
+#lewyw {
+    float: left;
+    margin-top: 30px;
+}
+
+#prawyw {
+    float: right;
+    margin-right: 10px;
+}
+#gorny
+{
+    width: 220px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+a
+{
+    text-decoration: none;
+}
+#dolny
+{
+   float: left;
+   width: auto;
+   height: 50px;
+   margin: auto;
+}
+#wyswietl
+{
+   margin-left: 15px;
+   width: 115px;
+   float: left;
+}

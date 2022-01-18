@@ -1,0 +1,8 @@
+zapytanie 1:
+SELECT COUNT(id) FROM sportowiec
+zapytanie 2:
+SELECT imie, nazwisko FROM sportowiec WHERE id = '1'
+zapytanie 3:
+SELECT AVG(wynik) FROM wyniki WHERE dyscyplina_id = '3' AND sportowiec_id = '1'
+zapytanie 4:
+SELECT MAX(wynik) FROM wyniki WHERE dyscyplina_id = '3'

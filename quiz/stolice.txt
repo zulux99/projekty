@@ -1,0 +1,10 @@
+﻿1 || Czech || Praga || czechy.png || 
+2 || Litwy || Wilno || litwa.png || 
+3 || Luksemburgu || Luksemburg || luksemburg.png || 
+4 || Niemiec || Berlin || niemcy.png || 
+5 || Portugalii || Lizbona || portugalia.png || 
+6 || Hiszpanii || Madryt || hiszpania.png || 
+7 || Rosji || Moskwa || rosja.png || 
+8 || Ukrainy || Kijów || ukraina.png || 
+9 || Włoch || Rzym || wlochy.png || 
+10 || Wielkiej Brytanii || Kijów || wielka brytania.png || 
